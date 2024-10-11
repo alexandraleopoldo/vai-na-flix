@@ -1,5 +1,19 @@
 header {
-    background-color: palevioletred;
+    display: flex;
+    background-color: rgb(3, 3, 3);
+
+    img {
+        width: 15%;
+        object-fit: contain;
+        margin-left: 50px;
+    }
+
+    nav {
+        width: 50%;
+        height: 100%;
+        margin: 20px;
+        flex: 1;
+    }
 
     ul {
         display: flex;
@@ -7,11 +21,37 @@ header {
         list-style: none;
         height: 12vh;
         align-items: center;
-        
+        color: white;
+       
     }
 
     li {
         cursor: pointer;
+    }
+
+
+}
+
+.logo-nav {
+    display: flex;
+}
+
+.trocar-perfil {
+    display: flex;
+    margin-left: 200px;
+    
+
+    img{
+        width: 30px;
+        height: 30px;
+        margin-top: 40px;
+    }
+    p {
+        color: white;
+        margin-top: 55px;
+    }
+    a {
+        text-decoration: none;
     }
 }
 
