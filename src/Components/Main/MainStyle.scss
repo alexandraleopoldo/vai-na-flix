@@ -1,9 +1,10 @@
+
 main {
     display: flex;
     flex-direction: column;
     text-align: center;
     height: 100%;
-
+    
    
 }
 
@@ -18,7 +19,7 @@ main {
     height: 100%;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.4), 
-        rgba(0, 0, 0, 0.7)
+        rgba(0, 0, 0, 0.9)
       ), url("https://wallpapers.com/images/hd/vampire-diaries-all-characters-nk6lleef00pxudal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,26 +29,54 @@ main {
 .series-cartaz-content {
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    
 
     ul {
         display: flex;
-        flex-wrap: wrap;
+        //flex-wrap: wrap;
         padding: 0; 
         margin: 0; 
         gap: 10px;
         list-style: none;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        padding: 20px;
+        
+
+         //Estilizar a barra de rolagem 
+         &::-webkit-scrollbar {
+            height: 10px; // Altura da barra de rolagem horizontal 
+            padding-bottom: 20px;
+            
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #817575; // Cor da parte rolável da barra) 
+            border-radius: 10px; // Arredonda a parte rolável
+            cursor: grabbing;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background-color: #827070; // Cor ao passar o mouse na parte rolável 
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: #574d4d; // Cor do "track" (fundo da barra de rolagem) 
+        }
     }
 
     li {
+        flex: 0 0 auto;
         list-style: none; 
         padding: 0; 
         margin: 0; 
     }
 
     img {
-        width: 100vw;
-        max-width: 200px;
-        height: 50vh;
+        width: 260px;
+        height: 380px;
         object-fit: cover;
         border-radius: 5px;
     }
@@ -61,4 +90,63 @@ main {
     
 }
 
+.filmes-cartaz-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 
+    ul {
+        display: flex;
+        //flex-wrap: wrap;
+        padding: 0; 
+        margin: 0; 
+        gap: 10px;
+        list-style: none;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        padding: 20px;
+
+         //Estilizar a barra de rolagem 
+         &::-webkit-scrollbar {
+            height: 10px; // Altura da barra de rolagem horizontal 
+            padding-bottom: 20px;
+
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #817575; // Cor da parte rolável da barra) 
+            border-radius: 10px; // Arredonda a parte rolável
+            cursor: grabbing;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background-color: #827070; // Cor ao passar o mouse na parte rolável 
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: #574d4d; // Cor do "track" (fundo da barra de rolagem) 
+        }
+    }
+
+    li {
+        flex: 0 0 auto;
+        list-style: none; 
+        padding: 0; 
+        margin: 0; 
+    }
+
+    img {
+        width: 260px;
+        height: 380px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        
+    }
+
+}
