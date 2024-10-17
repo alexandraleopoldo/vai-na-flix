@@ -1,11 +1,17 @@
 header {
     display: flex;
+    width: 100%;
     background-color: rgb(3, 3, 3);
+
+    
 
     img {
         width: 15%;
         object-fit: contain;
         margin-left: 50px;
+        @media (max-width: 900px) {
+            height: 130px;
+        }
     }
 
     nav {
@@ -13,20 +19,21 @@ header {
         height: 100%;
         margin: 20px;
         flex: 1;
+        
     }
 
     ul {
         display: flex;
         justify-content: space-around;
         list-style: none;
-        height: 12vh;
+        height: 10vh;
         align-items: center;
         color: white;
-       
     }
 
     li {
         cursor: pointer;
+        
     }
 
 
@@ -34,24 +41,33 @@ header {
 
 .logo-nav {
     display: flex;
+    @media (max-width: 900px) {
+       
+    }
+
 }
 
 .trocar-perfil {
     display: flex;
-    margin-left: 150px;
+    justify-content: end;
+    width: 30%;
     
-
     img{
         width: 30px;
         height: 30px;
         margin-top: 40px;
     }
-    p {
-        color: white;
-        margin-top: 55px;
+
+    @media (max-width: 1200px) {
+        display: none;
     }
-    a {
-        text-decoration: none;
+    
+    
+}
+
+.ocultar {
+    @media (max-width: 900px) {
+        display: none;
     }
 }
 
