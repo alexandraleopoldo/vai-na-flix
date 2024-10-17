@@ -14,15 +14,15 @@ function Main() {
            <section className="series-cartaz-content">
             <h2>Séries</h2>
                 <ul>
-                    <li><img src="https://www.justwatch.com/images/poster/176980279/s718/diarios-de-um-vampiro.jpg" alt="" /></li>
-                    <li><img src="https://media.fstatic.com/mBm6qmp5WIBqCiJzen2Eapt1ix0=/322x478/smart/filters:format(webp)/media/movies/covers/2013/05/97f855b4918d62d6d9c9f5f94521faa3.jpg" alt="" /></li>
-                    <li><img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2024/03/poster_rainha_das_lagrimas_netflix__32300vc5s-760x1126.jpg" alt="" /></li>
-                    <li><img src="https://www.papodecinema.com.br/wp-content/uploads/2022/08/20220804-uma-advogada-extraordinaria-papo-de-cinema-cartaz-teaser.png" alt="" /></li>
-                    <li><img src="https://br.web.img3.acsta.net/pictures/14/03/31/19/28/462555.jpg" alt="" /></li>
-                    <li><img src="https://i.ebayimg.com/images/g/sZAAAOSwi6BlBO1z/s-l1200.jpg" alt="" /></li>
-                    <li><img src="https://i0.wp.com/image.tmdb.org/t/p/original/z2IFZ1nrzklEiGzz19YoxAwMDrT.jpg?ssl=1" alt="" /></li>
-                    <li><img src="https://i.ebayimg.com/00/s/MTYwMFgxMDgw/z/mFcAAOSwKoNj5GfS/$_57.JPG?set_id=880000500F" alt="" /></li>
-                    <li><img src="https://www.geekmagazine.com.br/wp-content/uploads/2022/03/290c0490-d436-409e-8ebb-4fad84fe7494-70783-00000f63c91bb8d0_file.webp" alt="" /></li>
+                    <li><a href="https://www.youtube.com/watch?v=BmVmhjjkN4E" target="blank"><img src="https://www.justwatch.com/images/poster/176980279/s718/diarios-de-um-vampiro.jpg" alt="" /></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=GXrDYboUnnw" target="blank"><img src="https://media.fstatic.com/mBm6qmp5WIBqCiJzen2Eapt1ix0=/322x478/smart/filters:format(webp)/media/movies/covers/2013/05/97f855b4918d62d6d9c9f5f94521faa3.jpg" alt="" /></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=_rNtXO6JuaQ" target="blank"><img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2024/03/poster_rainha_das_lagrimas_netflix__32300vc5s-760x1126.jpg" alt="" /></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=9SdYFYflVbw&t=2s" target="blank"><img src="https://www.papodecinema.com.br/wp-content/uploads/2022/08/20220804-uma-advogada-extraordinaria-papo-de-cinema-cartaz-teaser.png" alt="" /></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=2-W6_6gJda0" target="blank"><img src="https://br.web.img3.acsta.net/pictures/14/03/31/19/28/462555.jpg" alt="" /></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=YQeUmSD1c3g" target="blank"><img src="https://i.ebayimg.com/images/g/sZAAAOSwi6BlBO1z/s-l1200.jpg" alt="" /></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Es3B24z8fdA" target="blank"><img src="https://i0.wp.com/image.tmdb.org/t/p/original/z2IFZ1nrzklEiGzz19YoxAwMDrT.jpg?ssl=1" alt="" /></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=uLtkt8BonwM" target="blank"><img src="https://i.ebayimg.com/00/s/MTYwMFgxMDgw/z/mFcAAOSwKoNj5GfS/$_57.JPG?set_id=880000500F" alt="" /></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=x7Krla_UxRg" target="blank"><img src="https://www.geekmagazine.com.br/wp-content/uploads/2022/03/290c0490-d436-409e-8ebb-4fad84fe7494-70783-00000f63c91bb8d0_file.webp" alt="" /></a></li>
                 </ul>
            </section>
            <section className="filmes-cartaz-content">

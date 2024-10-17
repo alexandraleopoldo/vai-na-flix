@@ -32,8 +32,13 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top -30%; 
+    background-attachment: fixed;
 
-    @media (max-width: 1200px) {
+    @media (max-width: 900px) {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.8)
+          ), url("https://comunicazionemultimedia.wordpress.com/wp-content/uploads/2011/02/damon_elena_stefan.jpg?w=584");
         background-size: contain;
         background-position: center;
         height: 100%;
