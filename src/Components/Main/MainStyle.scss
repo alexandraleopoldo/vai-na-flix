@@ -24,7 +24,7 @@ main {
 
 .content-capa {
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 1)
@@ -36,11 +36,11 @@ main {
 
     @media (max-width: 900px) {
         background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5), 
-            rgba(0, 0, 0, 0.8)
-          ), url("https://comunicazionemultimedia.wordpress.com/wp-content/uploads/2011/02/damon_elena_stefan.jpg?w=584");
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 1)
+          ), url("https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2024/03/cfaf1de-Rainha-das-Lagrimas-k-drama.jpg");
         background-size: contain;
-        background-position: center;
+        background-position: center top;
         height: 100%;
         width: 100%;
     }
@@ -72,13 +72,13 @@ main {
 
          //Estilizar a barra de rolagem 
          &::-webkit-scrollbar {
-            height: 10px; // Altura da barra de rolagem horizontal 
+            height: 8px; // Altura da barra de rolagem horizontal 
             padding-bottom: 20px;
             
         }
 
         &::-webkit-scrollbar-thumb {
-            background-color: #817575; // Cor da parte rolável da barra) 
+            background-color: #2c2525; // Cor da parte rolável da barra) 
             border-radius: 10px; // Arredonda a parte rolável
             cursor: grabbing;
         }
@@ -88,7 +88,7 @@ main {
         }
 
         &::-webkit-scrollbar-track {
-            background-color: #574d4d; // Cor do "track" (fundo da barra de rolagem) 
+            background-color: #3b3737; // Cor do "track" (fundo da barra de rolagem) 
         }
     }
 
@@ -139,13 +139,13 @@ main {
 
          //Estilizar a barra de rolagem 
          &::-webkit-scrollbar {
-            height: 10px; // Altura da barra de rolagem horizontal 
+            height: 8px; // Altura da barra de rolagem horizontal 
             padding-bottom: 20px;
 
         }
 
         &::-webkit-scrollbar-thumb {
-            background-color: #817575; // Cor da parte rolável da barra) 
+            background-color: #2c2525; // Cor da parte rolável da barra) 
             border-radius: 10px; // Arredonda a parte rolável
             cursor: grabbing;
         }
@@ -155,7 +155,7 @@ main {
         }
 
         &::-webkit-scrollbar-track {
-            background-color: #574d4d; // Cor do "track" (fundo da barra de rolagem) 
+            background-color: #3b3737; // Cor do "track" (fundo da barra de rolagem) 
         }
     }
 
