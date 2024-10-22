@@ -7,7 +7,7 @@ function Main() {
         <main>
            
            <section className="inicio-content">
-            <div className="content-capa">
+           <div className="content-capa">
             
             </div>
            </section>

@@ -3,16 +3,17 @@ import "./HeaderStyle.scss";
 function Header() {
     return(
        <header>
+        <div className="img-logo"><img src="./img/aleflix.png" alt="Netflix Logo" /></div>
             <div className="logo-nav">
-              <div className="img-logo"><img src="./img/aleflix.png" alt="Netflix Logo" /></div>
+              
                 <nav>
                     <ul>
                       <li >Início</li>
-                      <li >Séries</li>
-                      <li >Filmes</li>
+                      <li className="ocultar">Séries</li>
+                      <li className="ocultar">Filmes</li>
                       <li >Mais Recentes</li>
                       <li >Minha Lista</li>
-                      <li >Infantil</li>
+                      <li className="ocultar">Infantil</li>
                     </ul>
               </nav>
             </div>

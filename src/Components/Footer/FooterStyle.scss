@@ -1,12 +1,12 @@
 footer {
     display: flex;
-    width: 100%;
+    width: 90%;
     height: 10vh;
     align-items: center;
     justify-content: center;
     color: white;
 
-    @media (max-width: 900px) {
+    @media (max-width: 600px) {
         justify-content: space-around;
     }
 
@@ -24,7 +24,7 @@ footer {
     height: 100%;
     justify-content: space-between;
     
-    @media (max-width: 900px) {
+    @media (max-width: 600px) {
         width: 50%;
         justify-content: center;
     }
@@ -57,7 +57,7 @@ footer {
         border-radius: 50px;
         object-fit: cover;
 
-        @media (max-width: 900px) {
+        @media (max-width: 600px) {
             width: 30px;
 
         }
@@ -68,14 +68,14 @@ footer {
         list-style: none;
         align-items: center;
 
-        @media (max-width: 900px) {
+        @media (max-width: 600px) {
             gap: 30px;
         }
     }
 }
 
 .ocultar {
-    @media (max-width: 900px) {
+    @media (max-width: 600px) {
         display: none;
     }
    
